@@ -1,2 +1,4 @@
 # FDP2026CLASE
 Ejercicios de  clase
+
+# APRENDIENDO A USAR GITHUB
