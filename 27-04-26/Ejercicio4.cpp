@@ -2,17 +2,23 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     int number;
 
     cout << "Enter a number: " << endl;
     cin >> number;
 
-    if (number == 0){
+    if (number == 0)
+    {
         cout << "Your number is zero." << endl;
-    }else if(number < 0){
+    }
+    else if (number < 0)
+    {
         cout << "Your number is negative." << endl;
-    }else{
+    }
+    else
+    {
         cout << "Your number is positive." << endl;
     }
 

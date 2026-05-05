@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
 
     // Suma de 2 numeros
 
@@ -18,7 +19,7 @@ int main(){
 
     cout << "La suma de tus numeros es: " << suma << endl << endl;
 
-// Promedio de 3 números
+    // Promedio de 3 números
 
     float num3, num4, num5;
 
@@ -31,7 +32,7 @@ int main(){
     cout << "Ingrese el primer numero: ";
     cin >> num5;
 
-    float promedio = (num3 + num4 + num5)/3;
+    float promedio = (num3 + num4 + num5) / 3;
 
     cout << "El promedio de los numeros ingresados es de: " << promedio << endl << endl;
 
@@ -42,7 +43,7 @@ int main(){
     cout << "Ingrese el numero de grados Celsius: ";
     cin >> gradosCelcius;
 
-    float conversion = (gradosCelcius * 9/5) + 32;
+    float conversion = (gradosCelcius * 9 / 5) + 32;
 
     cout << "El resultado a grados Farenheit es: " << conversion << endl;
 
